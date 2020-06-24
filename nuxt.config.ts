@@ -23,11 +23,10 @@ module.exports = {
     ]
   },
   env,
-  modules: ['@nuxtjs/vuetify', '@nuxtjs/style-resources', 'portal-vue/nuxt'],
   buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
   css: ['~/assets/scss/main.scss'],
-  plugins: ['~/plugins/portal-vue'],
+  plugins: [],
   styleResources: {
     scss: [
       '~/assets/scss/variables.scss',
