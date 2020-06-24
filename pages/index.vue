@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>This is Top Page.</p>
+    <p>{{ $messages.top }}</p>
   </div>
 </template>
 

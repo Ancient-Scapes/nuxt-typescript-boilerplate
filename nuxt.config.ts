@@ -26,7 +26,7 @@ module.exports = {
   buildModules: ['@nuxt/typescript-build'],
   loading: { color: '#fff' },
   css: ['~/assets/scss/main.scss'],
-  plugins: [],
+  plugins: ['~/plugins/messages'],
   styleResources: {
     scss: [
       '~/assets/scss/variables.scss',
