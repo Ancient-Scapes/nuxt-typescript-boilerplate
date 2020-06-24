@@ -36,6 +36,7 @@
     "nodemon": "^1.11.0",
     "prettier": "1.14.3",
     "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
     "stylelint-scss": "^3.17.2",
     "ts-jest": "^26.0.0",
     "vue-jest": "^3.0.5"

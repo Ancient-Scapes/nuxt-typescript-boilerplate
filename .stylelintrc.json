@@ -1,5 +1,5 @@
 {
-  "plugins": ["stylelint-scss"],
+  "plugins": ["stylelint-scss", "stylelint-order"],
   "extends": "stylelint-config-standard",
   "rules": {
     "no-empty-source": null,
@@ -7,6 +7,62 @@
     "scss/at-rule-no-unknown": true,
     "scss/dollar-variable-colon-space-before": "never",
     "scss/dollar-variable-colon-space-after": "always",
-    "scss/dollar-variable-pattern": "^[a-z]+(?:-[a-z0-9]+)*$"
+    "scss/dollar-variable-pattern": "^[a-z]+(?:-[a-z0-9]+)*$",
+    "selector-pseudo-element-no-unknown": [
+      true,
+      {
+        "ignorePseudoElements": ["v-deep"]
+      }
+    ],
+    "order/properties-order": [
+      "width",
+      "max-width",
+      "min-width",
+
+      "height",
+      "max-height",
+      "min-height",
+
+      "position",
+      "top",
+      "bottom",
+      "left",
+      "right",
+
+      "display",
+      "justify-content",
+      "justify-items",
+      "align-items",
+      "align-content",
+      "flex-direction",
+
+      "margin",
+      "margin-top",
+      "margin-bottom",
+      "margin-left",
+      "margin-right",
+
+      "padding",
+      "padding-top",
+      "padding-bottom",
+      "padding-left",
+      "padding-right",
+
+      "font-family",
+      "font-size",
+      "font-weight",
+      "line-height",
+      "letter-spacing",
+      "text-overflow",
+      "white-space",
+
+      "color",
+      "background-color",
+
+      "overflow",
+      "overflow-x",
+      "overflow-y",
+      "cursor"
+    ]
   }
 }
