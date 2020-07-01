@@ -1,10 +1,8 @@
-# Nuxt-TypeScript-BestPractices
+# Nuxt-TypeScript-Boilerplate
 
 ## About
 
-My awesome nuxt + typescript project bestplactices.
-
-demo: [Github Pages](https://ancient-scapes.github.io/Nuxt-TypeScript-BestPractices/)
+My Nuxt.js + Typescript boilerplate.
 
 ## Usage
 
@@ -12,10 +10,6 @@ demo: [Github Pages](https://ancient-scapes.github.io/Nuxt-TypeScript-BestPracti
 - yarn dev
 
 ## Library
-
-### UI Framework
-
-- Vuetify 2
 
 ### JavaScript
 
@@ -34,14 +28,6 @@ demo: [Github Pages](https://ancient-scapes.github.io/Nuxt-TypeScript-BestPracti
 - eslint
 - prettier
 - stylelint
-
-### Hosting
-
-- Github Pages
-
-### CI
-
-- Github Actions
 
 ### Other
 
