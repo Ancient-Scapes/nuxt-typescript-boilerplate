@@ -16,7 +16,7 @@
     "@nuxt/typescript-build": "^1.0.3",
     "@nuxt/typescript-runtime": "latest",
     "cross-env": "^7.0.2",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "nuxt": "latest",
     "sass-loader": "^8.0.2",
     "stylelint": "^13.5.0"
